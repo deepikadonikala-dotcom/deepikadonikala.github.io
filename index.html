@@ -3,107 +3,212 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deepika Donikala | Portfolio</title>
+  <title>Deepika Donikala | Resume Portfolio</title>
+
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
-    body { background: #f7f9fc; color: #222; line-height: 1.6; }
-    header { background: #0f172a; color: #fff; padding: 2rem 1rem; }
-    header h1 { font-size: 2rem; }
-    header p { opacity: 0.9; }
-    nav { margin-top: 1rem; }
-    nav a { color: #c7d2fe; margin-right: 1rem; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
-    section { padding: 3rem 1rem; max-width: 900px; margin: auto; }
-    h2 { margin-bottom: 1rem; color: #0f172a; }
+    body {
+      background: #f7f9fc;
+      color: #222;
+      line-height: 1.7;
+    }
 
-    .card { background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); margin-bottom: 1.5rem; }
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
 
-    .skills span { display: inline-block; background: #e0e7ff; color: #1e3a8a; padding: 0.4rem 0.7rem; border-radius: 20px; margin: 0.3rem; font-size: 0.9rem; }
+    header h1 {
+      font-size: 2.2rem;
+    }
 
-    .projects h3 { margin-bottom: 0.5rem; }
-    .projects p { font-size: 0.95rem; }
+    header p {
+      margin-top: 0.6rem;
+      opacity: 0.9;
+    }
 
-    footer { text-align: center; padding: 1.5rem; background: #0f172a; color: #c7d2fe; }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
 
-    .btn { display: inline-block; margin-top: 0.8rem; padding: 0.5rem 1rem; background: #1e40af; color: #fff; border-radius: 5px; text-decoration: none; font-size: 0.9rem; }
-    .btn:hover { background: #1d4ed8; }
+    .btn:hover {
+      background: #1d4ed8;
+    }
 
-    @media (max-width: 600px) {
-      header h1 { font-size: 1.6rem; }
+    nav {
+      margin-top: 1.2rem;
+    }
+
+    nav a {
+      color: #c7d2fe;
+      margin: 0 0.8rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1rem;
+    }
+
+    h2 {
+      color: #0f172a;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.4rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1.6rem;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      margin-bottom: 1.6rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #1e3a8a;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      margin: 0.3rem;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0f172a;
+      color: #c7d2fe;
+      font-size: 0.9rem;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>Deepika Donikala</h1>
-  <p>B.Tech EEE Graduate | Fresher | Aspiring Engineer</p>
+  <p>B.Tech Electrical & Electronics Engineering Graduate | Fresher</p>
+
+  <!-- Resume Button -->
+  <a class="btn" href="resume.pdf" target="_blank">Download Resume</a>
+
   <nav>
-    <a href="#about">About</a>
+    <a href="#summary">Summary</a>
+    <a href="#education">Education</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
-<section id="about">
-  <h2>About Me</h2>
+<section id="summary">
+  <h2>Professional Summary</h2>
   <div class="card">
     <p>
-      I am a B.Tech Electrical & Electronics Engineering graduate and a fresher
-      passionate about technology, problem-solving, and continuous learning.
-      I am currently building projects using Python, SQL, and web technologies
-      and actively seeking entry-level opportunities.
+      Motivated B.Tech Electrical & Electronics Engineering graduate and fresher
+      with a strong foundation in core electrical concepts and growing expertise
+      in Python, SQL, and web technologies. Passionate about problem-solving,
+      continuous learning, and building practical projects. Seeking an
+      entry-level role to contribute and grow in a professional environment.
     </p>
   </div>
 </section>
 
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <p><strong>Bachelor of Technology (B.Tech)</strong></p>
+    <p>Electrical & Electronics Engineering (EEE)</p>
+    <p>Graduate | India</p>
+  </div>
+</section>
+
 <section id="skills">
-  <h2>Skills</h2>
+  <h2>Technical Skills</h2>
   <div class="card skills">
     <span>Python</span>
     <span>SQL</span>
     <span>HTML</span>
     <span>CSS</span>
-    <span>JavaScript</span>
+    <span>JavaScript (Basics)</span>
     <span>Git & GitHub</span>
     <span>Electrical Fundamentals</span>
+    <span>Problem Solving</span>
   </div>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
-  <div class="card projects">
+
+  <div class="card">
     <h3>Electricity Bill Calculator</h3>
-    <p>Python-based application to calculate electricity bills using slab-wise tariff logic.</p>
-    <a class="btn" href="#">View on GitHub</a>
+    <ul>
+      <li>Developed a Python application to calculate electricity bills using slab-wise tariff logic.</li>
+      <li>Implemented conditional logic and user input validation.</li>
+      <li>Demonstrates strong understanding of electrical billing concepts.</li>
+    </ul>
+    <a class="btn" href="#" target="_blank">View on GitHub</a>
   </div>
 
-  <div class="card projects">
+  <div class="card">
     <h3>Student Management System</h3>
-    <p>Python + SQL project for managing student records with CRUD operations.</p>
-    <a class="btn" href="#">View on GitHub</a>
+    <ul>
+      <li>Built a Python + SQL based system to manage student records.</li>
+      <li>Implemented Create, Read, Update, and Delete (CRUD) operations.</li>
+      <li>Improved understanding of database design and queries.</li>
+    </ul>
+    <a class="btn" href="#" target="_blank">View on GitHub</a>
   </div>
 
-  <div class="card projects">
-    <h3>Portfolio Website</h3>
-    <p>Responsive personal portfolio built using HTML and CSS.</p>
-    <a class="btn" href="https://github.com/deepikadonikala/electricity-bill-calculator">View on GitHub</a>
+  <div class="card">
+    <h3>Personal Portfolio Website</h3>
+    <ul>
+      <li>Designed and developed a responsive portfolio using HTML and CSS.</li>
+      <li>Hosted the website using GitHub Pages.</li>
+      <li>Showcases resume, skills, and projects professionally.</li>
+    </ul>
+    <a class="btn" href="#" target="_blank">View on GitHub</a>
   </div>
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
+  <h2>Contact Information</h2>
   <div class="card">
-    <p>Email: deepikadonikala@email.com</p>
-    <p>GitHub: github.com/deepikadonikala,github.io</p>
-    <p>LinkedIn: linkedin.com/in/www.linkedin.com/in/deepikadonikala</p>
+    <p>Email: <a href="mailto:deepikadonikala@gmail.com">deepikadonikala@gmail.com</a></p>
+    <p>GitHub: <a href="https://deepikadonikala.github.io" target="_blank">deepikadonikala.github.io</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/deepikadonikala" target="_blank">linkedin.com/in/deepikadonikala</a></p>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Deepika Donikala | Built for GitHub Portfolio</p>
+  © 2026 Deepika Donikala | Resume Portfolio
 </footer>
 
 </body>
