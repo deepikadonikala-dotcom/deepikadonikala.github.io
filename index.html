@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Deepika Donikala | Resume Portfolio</title>
 
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="favicon.ico" />
+
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -44,6 +51,7 @@
       border-radius: 6px;
       text-decoration: none;
       font-size: 0.95rem;
+      transition: background 0.3s ease;
     }
 
     .btn:hover {
@@ -80,6 +88,11 @@
       border-radius: 10px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.05);
       margin-bottom: 1.6rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
     }
 
     ul {
@@ -117,7 +130,9 @@
   <p>B.Tech Electrical & Electronics Engineering Graduate | Fresher</p>
 
   <!-- Resume Button -->
-  <a class="btn" href="resume.pdf" target="_blank">Download Resume</a>
+  <a class="btn" href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer">
+    Download Resume
+  </a>
 
   <nav>
     <a href="#summary">Summary</a>
@@ -146,7 +161,8 @@
   <div class="card">
     <p><strong>Bachelor of Technology (B.Tech)</strong></p>
     <p>Electrical & Electronics Engineering (EEE)</p>
-    <p>Graduate | India</p>
+    <p>XYZ Engineering College</p>
+    <p>2021 – 2025 | CGPA: 8.854</p>
   </div>
 </section>
 
@@ -172,38 +188,56 @@
     <ul>
       <li>Developed a Python application to calculate electricity bills using slab-wise tariff logic.</li>
       <li>Implemented conditional logic and user input validation.</li>
-      <li>Demonstrates strong understanding of electrical billing concepts.</li>
+      <li>Demonstrates understanding of electricity billing concepts.</li>
     </ul>
-    <a class="btn" href="#" target="_blank">View on GitHub</a>
+    <a class="btn" href="https://github.com/deepikadonikala/electricity-bill-calculator"
+       target="_blank" rel="noopener noreferrer">View on GitHub</a>
   </div>
 
   <div class="card">
     <h3>Student Management System</h3>
     <ul>
       <li>Built a Python + SQL based system to manage student records.</li>
-      <li>Implemented Create, Read, Update, and Delete (CRUD) operations.</li>
-      <li>Improved understanding of database design and queries.</li>
+      <li>Implemented CRUD operations.</li>
+      <li>Improved database design and query skills.</li>
     </ul>
-    <a class="btn" href="#" target="_blank">View on GitHub</a>
+    <a class="btn" href="https://github.com/deepikadonikala/student-management-system"
+       target="_blank" rel="noopener noreferrer">View on GitHub</a>
   </div>
 
   <div class="card">
     <h3>Personal Portfolio Website</h3>
     <ul>
       <li>Designed and developed a responsive portfolio using HTML and CSS.</li>
-      <li>Hosted the website using GitHub Pages.</li>
+      <li>Hosted using GitHub Pages.</li>
       <li>Showcases resume, skills, and projects professionally.</li>
     </ul>
-    <a class="btn" href="#" target="_blank">View on GitHub</a>
+    <a class="btn" href="https://github.com/deepikadonikala/deepikadonikala.github.io"
+       target="_blank" rel="noopener noreferrer">View on GitHub</a>
   </div>
 </section>
 
 <section id="contact">
   <h2>Contact Information</h2>
   <div class="card">
-    <p>Email: <a href="mailto:deepikadonikala@gmail.com">deepikadonikala@gmail.com</a></p>
-    <p>GitHub: <a href="https://deepikadonikala.github.io" target="_blank">deepikadonikala.github.io</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/deepikadonikala" target="_blank">linkedin.com/in/deepikadonikala</a></p>
+    <p>Email:
+      <a href="mailto:deepikadonikala@gmail.com">deepikadonikala@gmail.com</a>
+    </p>
+    <p>Website:
+      <a href="https://deepikadonikala.github.io" target="_blank" rel="noopener noreferrer">
+        deepikadonikala.github.io
+      </a>
+    </p>
+    <p>GitHub:
+      <a href="https://github.com/deepikadonikala" target="_blank" rel="noopener noreferrer">
+        github.com/deepikadonikala
+      </a>
+    </p>
+    <p>LinkedIn:
+      <a href="https://www.linkedin.com/in/deepikadonikala" target="_blank" rel="noopener noreferrer">
+        linkedin.com/in/deepikadonikala
+      </a>
+    </p>
   </div>
 </section>
 
